@@ -1,5 +1,9 @@
 {
   "item.tools_plus.amethyst_sword": "Amethyst Sword",
+  "item.tools_plus.amethyst_pickaxe": "Amethyst Pickaxe",
+  "item.tools_plus.amethyst_axe": "Amethyst Axe",
+  "item.tools_plus.amethyst_shovel": "Amethyst Shovel",
+  "item.tools_plus.amethyst_hoe": "Amethyst Hoe",
 
   "creativetab.tools_plus_tab": "Tools+"
 }

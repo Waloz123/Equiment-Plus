@@ -18,6 +18,10 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativetab.tools_plus_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.AMETHYST_SWORD.get());
+                        pOutput.accept(ModItems.AMETHYST_PICKAXE.get());
+                        pOutput.accept(ModItems.AMETHYST_AXE.get());
+                        pOutput.accept(ModItems.AMETHYST_SHOVEL.get());
+                        pOutput.accept(ModItems.AMETHYST_HOE.get());
                     })
                     .build());
 
