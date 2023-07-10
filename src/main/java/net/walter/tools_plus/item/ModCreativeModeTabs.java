@@ -22,6 +22,11 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.AMETHYST_AXE.get());
                         pOutput.accept(ModItems.AMETHYST_SHOVEL.get());
                         pOutput.accept(ModItems.AMETHYST_HOE.get());
+
+                        pOutput.accept(ModItems.AMETHYST_HELMET.get());
+                        pOutput.accept(ModItems.AMETHYST_CHESTPLATE.get());
+                        pOutput.accept(ModItems.AMETHYST_LEGGINGS.get());
+                        pOutput.accept(ModItems.AMETHYST_BOOTS.get());
                     })
                     .build());
 

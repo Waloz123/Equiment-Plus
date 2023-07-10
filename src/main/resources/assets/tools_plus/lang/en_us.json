@@ -5,5 +5,10 @@
   "item.tools_plus.amethyst_shovel": "Amethyst Shovel",
   "item.tools_plus.amethyst_hoe": "Amethyst Hoe",
 
+  "item.tools_plus.amethyst_helmet": "Amethyst Helmet",
+  "item.tools_plus.amethyst_chestplate": "Amethyst Chestplate",
+  "item.tools_plus.amethyst_leggings": "Amethyst Leggings",
+  "item.tools_plus.amethyst_boots": "Amethyst Boots",
+
   "creativetab.tools_plus_tab": "Tools+"
 }
