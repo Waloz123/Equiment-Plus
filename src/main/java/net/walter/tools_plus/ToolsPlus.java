@@ -27,6 +27,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.walter.tools_plus.block.ModBlocks;
 import net.walter.tools_plus.item.ModCreativeModeTabs;
 import net.walter.tools_plus.item.ModItems;
 import org.slf4j.Logger;
@@ -42,6 +43,7 @@ public class ToolsPlus {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

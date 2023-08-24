@@ -16,32 +16,25 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> AMETHYST_SWORD = ITEMS.register("amethyst_sword",
-            () -> new SwordItem(ModTiers.AMETHYST, 2, 3f,
-                    new Item.Properties()));
+            () -> new SwordItem(ModToolTiers.Amethyst, 4, 2, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_PICKAXE = ITEMS.register("amethyst_pickaxe",
-            () -> new PickaxeItem(ModTiers.AMETHYST, 2, 3f,
-                    new Item.Properties()));
+            () -> new PickaxeItem(ModToolTiers.Amethyst, 1, 1, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_AXE = ITEMS.register("amethyst_axe",
-            () -> new AxeItem(ModTiers.AMETHYST, 2, 3f,
-                    new Item.Properties()));
+            () -> new AxeItem(ModToolTiers.Amethyst, 7, 1, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_SHOVEL = ITEMS.register("amethyst_shovel",
-            () -> new ShovelItem(ModTiers.AMETHYST, 2, 3f,
-                    new Item.Properties()));
+            () -> new ShovelItem(ModToolTiers.Amethyst, 0, 0, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_HOE = ITEMS.register("amethyst_hoe",
-            () -> new HoeItem(ModTiers.AMETHYST, 2, 3f,
-                    new Item.Properties()));
+            () -> new HoeItem(ModToolTiers.Amethyst, 0, 0, new Item.Properties()));
+
     public static final RegistryObject<Item> AMETHYST_HELMET = ITEMS.register("amethyst_helmet",
-            () -> new ArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.HELMET,
-                    new Item.Properties()));
+            () -> new ArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.HELMET, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_CHESTPLATE = ITEMS.register("amethyst_chestplate",
-            () -> new ArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties()));
+            () -> new ArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_LEGGINGS = ITEMS.register("amethyst_leggings",
-            () -> new ArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.LEGGINGS,
-                    new Item.Properties()));
+            () -> new ArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.LEGGINGS, new Item.Properties()));
     public static final RegistryObject<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots",
-            () -> new ArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.BOOTS,
-                    new Item.Properties()));
+            () -> new ArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.BOOTS, new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
