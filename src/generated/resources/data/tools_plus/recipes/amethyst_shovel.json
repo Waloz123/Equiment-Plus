@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "$": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "I": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " $ ",
+    " I ",
+    " I "
+  ],
+  "result": {
+    "item": "tools_plus:amethyst_shovel"
+  },
+  "show_notification": true
+}
