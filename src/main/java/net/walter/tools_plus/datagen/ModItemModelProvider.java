@@ -50,6 +50,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         trimmedArmorItem(ModItems.AMETHYST_CHESTPLATE);
         trimmedArmorItem(ModItems.AMETHYST_LEGGINGS);
         trimmedArmorItem(ModItems.AMETHYST_BOOTS);
+
+        simpleItem(ModItems.LAPIS_SWORD);
+        simpleItem(ModItems.LAPIS_PICKAXE);
+        simpleItem(ModItems.LAPIS_AXE);
+        simpleItem(ModItems.LAPIS_SHOVEL);
+        simpleItem(ModItems.LAPIS_HOE);
+
+        trimmedArmorItem(ModItems.LAPIS_HELMET);
+        trimmedArmorItem(ModItems.LAPIS_CHESTPLATE);
+        trimmedArmorItem(ModItems.LAPIS_LEGGINGS);
+        trimmedArmorItem(ModItems.LAPIS_BOOTS);
     }
 
     // Shoutout to El_Redstoniano for making this

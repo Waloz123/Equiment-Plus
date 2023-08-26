@@ -17,5 +17,9 @@ public class ModToolTiers {
             new ForgeTier(3, 1500, 5f, 4f, 25,
                     ModTags.Blocks.NEEDS_AMETHYST_TOOL, () -> Ingredient.of(Items.AMETHYST_SHARD)),
             new ResourceLocation(ToolsPlus.MOD_ID, "amethyst"), List.of(Tiers.IRON), List.of());
+public static final Tier LAPIS = TierSortingRegistry.registerTier(
+            new ForgeTier(3, 1500, 5f, 4f, 25,
+                    ModTags.Blocks.NEEDS_LAPIS_TOOL, () -> Ingredient.of(Items.LAPIS_LAZULI)),
+            new ResourceLocation(ToolsPlus.MOD_ID, "lapis"), List.of(Tiers.IRON), List.of());
 
 }

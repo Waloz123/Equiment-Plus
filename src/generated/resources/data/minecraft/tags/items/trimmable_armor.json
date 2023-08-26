@@ -3,6 +3,10 @@
     "tools_plus:amethyst_helmet",
     "tools_plus:amethyst_chestplate",
     "tools_plus:amethyst_leggings",
-    "tools_plus:amethyst_boots"
+    "tools_plus:amethyst_boots",
+    "tools_plus:lapis_helmet",
+    "tools_plus:lapis_chestplate",
+    "tools_plus:lapis_leggings",
+    "tools_plus:lapis_boots"
   ]
 }

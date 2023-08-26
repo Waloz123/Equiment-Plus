@@ -10,5 +10,16 @@
   "item.tools_plus.amethyst_leggings": "Amethyst Leggings",
   "item.tools_plus.amethyst_boots": "Amethyst Boots",
 
+  "item.tools_plus.lapis_sword": "Lapis Sword",
+  "item.tools_plus.lapis_pickaxe": "Lapis Pickaxe",
+  "item.tools_plus.lapis_axe": "Lapis Axe",
+  "item.tools_plus.lapis_shovel": "Lapis Shovel",
+  "item.tools_plus.lapis_hoe": "Lapis Hoe",
+
+  "item.tools_plus.lapis_helmet": "Lapis Helmet",
+  "item.tools_plus.lapis_chestplate": "Lapis Chestplate",
+  "item.tools_plus.lapis_leggings": "Lapis Leggings",
+  "item.tools_plus.lapis_boots": "Lapis Boots",
+
   "creativetab.tools_plus_tab": "Tools+"
 }

@@ -11,6 +11,7 @@ import net.walter.tools_plus.ToolsPlus;
 public class ModTags {
     public static class Blocks {
         public static final TagKey<Block> NEEDS_AMETHYST_TOOL = tag("needs_amethyst_tool");
+        public static final TagKey<Block> NEEDS_LAPIS_TOOL = tag("needs_lapis_tool");
 
         private static TagKey<Block> tag(String name) {
             return BlockTags.create(new ResourceLocation(ToolsPlus.MOD_ID, name));

@@ -29,6 +29,17 @@ public class ModCreativeModeTabs {
                         pOutput.accept(ModItems.AMETHYST_CHESTPLATE.get());
                         pOutput.accept(ModItems.AMETHYST_LEGGINGS.get());
                         pOutput.accept(ModItems.AMETHYST_BOOTS.get());
+
+                        pOutput.accept(ModItems.LAPIS_SWORD.get());
+                        pOutput.accept(ModItems.LAPIS_PICKAXE.get());
+                        pOutput.accept(ModItems.LAPIS_AXE.get());
+                        pOutput.accept(ModItems.LAPIS_SHOVEL.get());
+                        pOutput.accept(ModItems.LAPIS_HOE.get());
+
+                        pOutput.accept(ModItems.LAPIS_HELMET.get());
+                        pOutput.accept(ModItems.LAPIS_CHESTPLATE.get());
+                        pOutput.accept(ModItems.LAPIS_LEGGINGS.get());
+                        pOutput.accept(ModItems.LAPIS_BOOTS.get());
                     })
                     .build());
 

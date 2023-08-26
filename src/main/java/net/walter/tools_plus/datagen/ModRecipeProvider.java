@@ -89,5 +89,73 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModItems.AMETHYST_BOOTS.get()), has(Items.AMETHYST_SHARD))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LAPIS_SWORD.get())
+                .pattern(" $ ")
+                .pattern(" $ ")
+                .pattern(" I ")
+                .define('$', Items.LAPIS_LAZULI)
+                .define('I', Items.STICK)
+                .unlockedBy(getHasName(ModItems.LAPIS_SWORD.get()), has(Items.LAPIS_LAZULI))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LAPIS_PICKAXE.get())
+                .pattern("$$$")
+                .pattern(" I ")
+                .pattern(" I ")
+                .define('$', Items.LAPIS_LAZULI)
+                .define('I', Items.STICK)
+                .unlockedBy(getHasName(ModItems.LAPIS_PICKAXE.get()), has(Items.LAPIS_LAZULI))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LAPIS_AXE.get())
+                .pattern(" $$")
+                .pattern(" I$")
+                .pattern(" I ")
+                .define('$', Items.LAPIS_LAZULI)
+                .define('I', Items.STICK)
+                .unlockedBy(getHasName(ModItems.LAPIS_AXE.get()), has(Items.LAPIS_LAZULI))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LAPIS_SHOVEL.get())
+                .pattern(" $ ")
+                .pattern(" I ")
+                .pattern(" I ")
+                .define('$', Items.LAPIS_LAZULI)
+                .define('I', Items.STICK)
+                .unlockedBy(getHasName(ModItems.LAPIS_SHOVEL.get()), has(Items.LAPIS_LAZULI))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LAPIS_HOE.get())
+                .pattern(" $$")
+                .pattern(" I ")
+                .pattern(" I ")
+                .define('$', Items.LAPIS_LAZULI)
+                .define('I', Items.STICK)
+                .unlockedBy(getHasName(ModItems.LAPIS_HOE.get()), has(Items.LAPIS_LAZULI))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LAPIS_HELMET.get())
+                .pattern("$$$")
+                .pattern("$ $")
+                .pattern("   ")
+                .define('$', Items.LAPIS_LAZULI)
+                .unlockedBy(getHasName(ModItems.LAPIS_HELMET.get()), has(Items.LAPIS_LAZULI))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LAPIS_CHESTPLATE.get())
+                .pattern("$ $")
+                .pattern("$$$")
+                .pattern("$$$")
+                .define('$', Items.LAPIS_LAZULI)
+                .unlockedBy(getHasName(ModItems.LAPIS_CHESTPLATE.get()), has(Items.LAPIS_LAZULI))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LAPIS_LEGGINGS.get())
+                .pattern("$$$")
+                .pattern("$ $")
+                .pattern("$ $")
+                .define('$', Items.LAPIS_LAZULI)
+                .unlockedBy(getHasName(ModItems.LAPIS_LEGGINGS.get()), has(Items.LAPIS_LAZULI))
+                .save(pWriter);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.LAPIS_BOOTS.get())
+                .pattern("   ")
+                .pattern("$ $")
+                .pattern("$ $")
+                .define('$', Items.LAPIS_LAZULI)
+                .unlockedBy(getHasName(ModItems.LAPIS_BOOTS.get()), has(Items.LAPIS_LAZULI))
+                .save(pWriter);
     }
 }

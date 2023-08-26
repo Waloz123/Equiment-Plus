@@ -18,7 +18,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        this.tag(ModTags.Blocks.NEEDS_AMETHYST_TOOL)
-                .add(ModBlocks.TEMPLATE_BLOCK.get());
+        //this.tag(ModTags.Blocks.NEEDS_AMETHYST_TOOL)
+                //.add(ModBlocks.TEMPLATE_BLOCK.get());
     }
 }

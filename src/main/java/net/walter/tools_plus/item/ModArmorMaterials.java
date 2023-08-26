@@ -12,8 +12,10 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     AMETHYST("amethyst", 26, new int []{ 5, 7, 5, 4}, 25,
-            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(Items.AMETHYST_SHARD));
+            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(Items.AMETHYST_SHARD)),
 
+    LAPIS("lapis", 26, new int []{ 5, 7, 5, 4}, 25,
+            SoundEvents.ARMOR_EQUIP_GOLD, 1f, 0f, () -> Ingredient.of(Items.LAPIS_LAZULI));
     private final String name;
     private final int durabilityMultiplier;
     private final int[] protectionAmounts;

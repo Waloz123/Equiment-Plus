@@ -1,4 +1,4 @@
-// 1.20.1	2023-08-24T19:43:41.9542129	Recipes
+// 1.20.1	2023-08-25T22:55:31.0699257	Recipes
 35a885e480c4da1290009375606bc7033abb339d data/tools_plus/advancements/recipes/misc/amethyst_axe.json
 b0cb36a44f4822ab6d89e3555c6f68a0171a4132 data/tools_plus/advancements/recipes/misc/amethyst_boots.json
 ecd553b658a996f0266b36419d4f660301bf116b data/tools_plus/advancements/recipes/misc/amethyst_chestplate.json
@@ -8,6 +8,15 @@ e7bd8cd26868d50831ad6b156ba49bc966f04f0a data/tools_plus/advancements/recipes/mi
 6e88c1060996a7dde7fece5ad7abda4694880b7f data/tools_plus/advancements/recipes/misc/amethyst_pickaxe.json
 c9c7e064811bebfd175b66fda3f976d47863240e data/tools_plus/advancements/recipes/misc/amethyst_shovel.json
 9ec097783294534bc67bb112f7eae56de1fe1efb data/tools_plus/advancements/recipes/misc/amethyst_sword.json
+9c80bcbfcdc910c66eb1250f998024d619f372dc data/tools_plus/advancements/recipes/misc/lapis_axe.json
+1bfd9afd2cf85d8ce7c6b2dff44b12c12b81d1ff data/tools_plus/advancements/recipes/misc/lapis_boots.json
+7c8e0549174f810ec8c2554683d4300c15a50db9 data/tools_plus/advancements/recipes/misc/lapis_chestplate.json
+8c943186474fe3daff17acabf6ca8e336771ccc8 data/tools_plus/advancements/recipes/misc/lapis_helmet.json
+1ef7c8ecd7415ff7a965d9a4a4d0ce6d93086d80 data/tools_plus/advancements/recipes/misc/lapis_hoe.json
+7c0124e8ce94d0afbffd39607c793e076bb148ae data/tools_plus/advancements/recipes/misc/lapis_leggings.json
+4a98cde4f093cb337e0f0d9799103de9874d5af4 data/tools_plus/advancements/recipes/misc/lapis_pickaxe.json
+19edeec36db2e4526d012ffe95a0ca93be95b9f8 data/tools_plus/advancements/recipes/misc/lapis_shovel.json
+b70f5298fbd6caf5755cbb48fff89f16797f5cda data/tools_plus/advancements/recipes/misc/lapis_sword.json
 eac53df856d957bef7dade156cb4fdf2cb0eba12 data/tools_plus/recipes/amethyst_axe.json
 cee775bd62f339980986217c2f329bde3bfc884f data/tools_plus/recipes/amethyst_boots.json
 c7315dd73c107a7c3bfbeee3638d892925091edf data/tools_plus/recipes/amethyst_chestplate.json
@@ -17,3 +26,12 @@ d647d99cbfe7bfeb6fee10688dd3b9bdb93096bd data/tools_plus/recipes/amethyst_hoe.js
 f31e095c2920df441dfed28e13cf3ced1b3c9c8e data/tools_plus/recipes/amethyst_pickaxe.json
 6c102c9e1fa2caa0cc4ee2efc4895e701e9b4d69 data/tools_plus/recipes/amethyst_shovel.json
 91b60f8c715e7113e851a3b5c6ef3f2d693ffef0 data/tools_plus/recipes/amethyst_sword.json
+d5f0d0bd864f79909e18be463bf3647a486d7a95 data/tools_plus/recipes/lapis_axe.json
+3e25cd261616205169d56b3f6f58c7180159a5f5 data/tools_plus/recipes/lapis_boots.json
+11cbf5cd988616c26148336f08b1282612398841 data/tools_plus/recipes/lapis_chestplate.json
+db925132950b3b9d5ad1b59a75166c523b83fb47 data/tools_plus/recipes/lapis_helmet.json
+bf6ff85d82b16e56d951df5501d992237bc8789c data/tools_plus/recipes/lapis_hoe.json
+1b266b319134c3decac20aa3eb2eaa68acec9980 data/tools_plus/recipes/lapis_leggings.json
+89bca09198f469e3ace096230f1251aae086da21 data/tools_plus/recipes/lapis_pickaxe.json
+43ff08fdc2ff6ce7227fc336b2d0b9e5a46bed21 data/tools_plus/recipes/lapis_shovel.json
+3f79c407ec576bfdf08500cbb803f8c2ceea2e01 data/tools_plus/recipes/lapis_sword.json

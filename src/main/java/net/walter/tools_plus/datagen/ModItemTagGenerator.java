@@ -24,5 +24,10 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.AMETHYST_CHESTPLATE.get(),
                         ModItems.AMETHYST_LEGGINGS.get(),
                         ModItems.AMETHYST_BOOTS.get());
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.LAPIS_HELMET.get(),
+                        ModItems.LAPIS_CHESTPLATE.get(),
+                        ModItems.LAPIS_LEGGINGS.get(),
+                        ModItems.LAPIS_BOOTS.get());
     }
 }

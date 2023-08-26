@@ -35,6 +35,25 @@ public class ModItems {
     public static final RegistryObject<Item> AMETHYST_BOOTS = ITEMS.register("amethyst_boots",
             () -> new ArmorItem(ModArmorMaterials.AMETHYST, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    public static final RegistryObject<Item> LAPIS_SWORD = ITEMS.register("lapis_sword",
+            () -> new SwordItem(ModToolTiers.LAPIS, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_PICKAXE = ITEMS.register("lapis_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.LAPIS, 1, 1, new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_AXE = ITEMS.register("lapis_axe",
+            () -> new AxeItem(ModToolTiers.LAPIS, 7, 1, new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_SHOVEL = ITEMS.register("lapis_shovel",
+            () -> new ShovelItem(ModToolTiers.LAPIS, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_HOE = ITEMS.register("lapis_hoe",
+            () -> new HoeItem(ModToolTiers.LAPIS, 0, 0, new Item.Properties()));
+
+    public static final RegistryObject<Item> LAPIS_HELMET = ITEMS.register("lapis_helmet",
+            () -> new ArmorItem(ModArmorMaterials.LAPIS, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_CHESTPLATE = ITEMS.register("lapis_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.LAPIS, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_LEGGINGS = ITEMS.register("lapis_leggings",
+            () -> new ArmorItem(ModArmorMaterials.LAPIS, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> LAPIS_BOOTS = ITEMS.register("lapis_boots",
+            () -> new ArmorItem(ModArmorMaterials.LAPIS, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
